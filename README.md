@@ -21,10 +21,12 @@ a Gradio web UI.
    ```
 
 2. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # Windows: venv\Scripts\activate
-   ```
+```bash
+   python3 -m venv venv        # macOS/Linux
+   python -m venv venv         # Windows
+   source venv/bin/activate    # macOS/Linux
+   venv\Scripts\activate       # Windows
+```
 
 3. Install dependencies:
    ```bash
@@ -37,9 +39,10 @@ a Gradio web UI.
    ```
 
 5. Run the app:
-   ```bash
-   python app.py
-   ```
+```bash
+   python3 app.py   # macOS/Linux
+   python app.py    # Windows
+```
 
 6. Open the URL Gradio prints in the terminal (usually `http://127.0.0.1:7860`).
 
