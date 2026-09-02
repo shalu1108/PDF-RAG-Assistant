@@ -19,6 +19,7 @@ fpdf>=1.7.2
 
 # Text processing
 nltk>=3.8.1
+wordninja
 
 # Summarization (local models)
 transformers>=4.37.0,<5.0.0
