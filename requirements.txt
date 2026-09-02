@@ -1,0 +1,33 @@
+# Core LLM + RAG
+langchain>=0.1.17
+langchain-text-splitters
+langchain-community>=0.0.36
+langchain-chroma>=0.1.2
+chromadb>=0.4.24
+
+# Free LLM (Groq)
+langchain-groq
+
+# Free local embeddings
+langchain-huggingface
+sentence-transformers
+
+# PDF processing
+pypdf>=4.0.0
+PyPDF2>=3.0.1
+fpdf>=1.7.2
+
+# Text processing
+nltk>=3.8.1
+
+# Summarization (local models)
+transformers>=4.37.0,<5.0.0
+sentence-transformers>=2.2.0,<6.0.0
+torch>=2.0.0
+
+# UI
+gradio>=4.20.0
+
+# Utilities
+python-dotenv>=1.0.1
+tqdm>=4.66.1
